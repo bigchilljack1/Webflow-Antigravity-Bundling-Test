@@ -1,0 +1,3 @@
+# Workspace Context
+
+Always reference `llms.txt` in this directory. It contains the comprehensive Webflow Developer Documentation, including Data API, Designer API, Flowkit, and Webflow Cloud references. Use this file as your primary source of truth for any Webflow-related tasks.
