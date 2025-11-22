@@ -10,7 +10,7 @@ function RotatingBox(props: any) {
   const [active, setActive] = useState(false)
 
   // Subscribe this component to the render-loop, rotate the mesh every frame
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     if (meshRef.current) {
       meshRef.current.rotation.x += delta
     }
